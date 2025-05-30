@@ -1,0 +1,31 @@
+.activity{
+    width: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    transform: rotate(90deg);
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.l-1{
+    width: 100px;
+    height: 5px;
+    background: black;
+    
+    border-radius: 5px;
+}
+.l-2{
+    width: 50px;
+    height: 5px;
+    background: black;
+   
+    border-radius: 5px;
+}
+.l-3{
+    width: 50px;
+    height: 5px;
+    background: black;
+   
+    border-radius: 5px;
+}

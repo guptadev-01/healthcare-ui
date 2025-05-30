@@ -1,0 +1,61 @@
+.body-img{
+    width: 225px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px #F4E7E1;
+}
+.main-container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card{
+    width: 200px;
+    padding: 20px;
+    background-color: #F4E7E1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+.card > p{
+    color: #789DBC;
+}
+.icons{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.icons > img{
+    width: 20px;
+}
+.report{
+    width: 100%;
+    height: 1vh;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.red{
+    width: 70%;
+    height: 1vh;
+    border-radius: 5px;
+    background-color: #E55050;
+}
+.green{
+    width: 70%;
+    height: 1vh;
+    border-radius: 5px;
+    background-color: #B0DB9C;
+}
+.orange{
+    width: 70%;
+    height: 1vh;
+    border-radius: 5px;
+    background-color: #FF9B45;
+}

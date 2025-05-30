@@ -1,0 +1,46 @@
+.sidebar{
+    height: 100vh;
+    width: 15%;
+    position: fixed;
+    background-color: #E4EFE7;
+    padding: 20px;
+    border-radius: 40px 0px 0px 40px ;
+}
+h2{
+    margin: 10px auto 10px auto;
+}
+.tag{
+    margin: 5px auto auto auto;
+    color: #789DBC;
+}
+.side{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: large;
+}
+.side > img{
+    width: 20px;
+}
+.side-selected{
+    background-color: #F1EFEC;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: large;
+}
+.side:hover{
+    background-color: #F1EFEC;
+    padding: 10px;
+    border-radius: 10px;
+}
+.tools{
+    margin-top: 40px;
+}
+.tools, .general{
+    padding: 5px;
+}
