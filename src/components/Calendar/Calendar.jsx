@@ -2,8 +2,6 @@ import React from 'react'
 import './Calendar.css'
 import profile from '../../assets/profile.svg'
 import add from '../../assets/add.svg'
-import tooth from '../../assets/tooth.png'
-import muscle from '../../assets/muscle.png'
 import Appointments from '../Appointments/Appointments'
 
 const Calendar = () => {
